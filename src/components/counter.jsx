@@ -14,7 +14,6 @@ class Counter extends Component {
 
   handleIncrement = () => {
     //this.state.count++;
-    console.log();
     this.setState({ count: this.state.count + 1 });
   };
 
@@ -23,6 +22,7 @@ class Counter extends Component {
   };*/
 
   render() {
+    console.log("props", this.props);
     /*
         let variable = "bagde m-2 badge-";
         classes += this.state.count === 0 ? "warning" : "primary";
