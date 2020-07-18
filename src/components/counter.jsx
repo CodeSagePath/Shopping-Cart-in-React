@@ -23,6 +23,7 @@ class Counter extends Component {
 
   render() {
     console.log("props", this.props);
+
     /*
         let variable = "bagde m-2 badge-";
         classes += this.state.count === 0 ? "warning" : "primary";
